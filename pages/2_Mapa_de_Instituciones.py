@@ -9,6 +9,7 @@ from Req import Edu_data
 Edu_Sup=Edu_data()
 # Titulo de la pagina
 st.title('Mapa de instituciones según su ubicación geográfica')
+st.write('Aplica los filtros a tu izquierda para personalizar el mapa')
 
 # Generar listado de Regiones ordenados
 tip_puntos = Edu_Sup["TIPO_INSTITUCIÓN"].sort_values().unique()

@@ -17,6 +17,7 @@ reg_puntos = Edu_Sup["REGIÓN"].sort_values().unique()
 
 # Titulo de la pagina
 st.title('Mapa de calor de instituciones según su ubicación geográfica')
+st.write('Aplica los filtros a tu izquierda para filtrar el mapa por región')
 
 with st.sidebar:
   st.write("# Filtros de Información")
