@@ -2,7 +2,6 @@ from datetime import datetime
 from os.path import isdir
 import streamlit as st
 import pandas as pd
-from dotenv import load_dotenv
 import os
 import requests
 
