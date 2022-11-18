@@ -4,7 +4,7 @@ import pydeck as pdk
 import numpy as np
 
 # Se importan funcionalidades desde librería propia
-from utils import Edu_data
+from Req import Edu_data
 
 Edu_Sup=Edu_data()
 

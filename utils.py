@@ -2,8 +2,10 @@ from datetime import datetime
 from os.path import isdir
 import streamlit as st
 import pandas as pd
+from dotenv import load_dotenv
 import os
 import requests
+
 
 @st.cache
 def Edu_data():
@@ -40,7 +42,7 @@ def Edu_data():
     #consulta clima por comuna
     load_dotenv()
     # Leer variable de API KEY desde archivo externo
-    WEATHER_API_KEY="0421a6f8ec8dab9677014a8c77125650"
+    WEATHER_API_KEY=os.getenv("API_KEY", "123APIKEY")
 
     # Definir lugar a consultar
     # Crear conexión a la API

@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 
 # Se importan funcionalidades desde librería propia
-from utils import Edu_data
+from Req import Edu_data
 
 # Obtener datos desde cache
 Edu_Sup = Edu_data()

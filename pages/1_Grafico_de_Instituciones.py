@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Se importan funcionalidades desde librería propia
-from utils import Edu_data
+from Req import Edu_data
 
 # Titulo de la pagina
 st.title('Gráficos de instituciones según la región seleccionada')
