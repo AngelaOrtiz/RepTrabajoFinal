@@ -41,7 +41,7 @@ def Edu_data():
     #consulta clima por comuna
     load_dotenv()
     # Leer variable de API KEY desde archivo externo
-    WEATHER_API_KEY=os.getenv("API_KEY", "123APIKEY")
+    WEATHER_API_KEY="0421a6f8ec8dab9677014a8c77125650"
 
     # Definir lugar a consultar
     # Crear conexión a la API
