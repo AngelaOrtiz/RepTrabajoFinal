@@ -31,6 +31,7 @@ class EducacionSuperior(Base):
   PROVINCIA = Column(String(100))
   COMUNA = Column(String(100))
   DIRECCION = Column(String(100))
+  NUMERO_DI = Column(Integer)
   LATITUD = Column(Float)
   LONGITUD = Column(Float)
   CLIMA = Column(String(100))
@@ -38,7 +39,7 @@ class EducacionSuperior(Base):
   def __repr__(self) -> str:
     return f" EducacionSuperior(FID={self.FID}, TIPO_INSTITUCIÓN={self.TIPO_INSTITUCIÓN}, NOMBRE_INSTITUCIÓN={self.NOMBRE_INSTITUCIÓN}, " \
       + f"NOMBRE_INMUEBLE={self.NOMBRE_INMUEBLE}, REGIÓN={self.REGIÓN}, PROVINCIA={self.PROVINCIA}, COMUNA={self.COMUNA}," \
-      + f"DIRECCION={self.DIRECCION}, LATITUD={self.LATITUD}, LONGITUD={self.LONGITUD}, CLIMA={self.CLIMA}" \
+      + f"DIRECCION={self.DIRECCION},NUMERO_DI={self.NUMERO_DI}, LATITUD={self.LATITUD}, LONGITUD={self.LONGITUD}, CLIMA={self.CLIMA}" \
       + ")"
 
 # Crear la tabla en BD

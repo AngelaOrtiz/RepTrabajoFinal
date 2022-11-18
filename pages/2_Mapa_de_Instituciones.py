@@ -7,6 +7,8 @@ import numpy as np
 from Req import Edu_data
 
 Edu_Sup=Edu_data()
+# Titulo de la pagina
+st.title('Mapa de instituciones según su ubicación geográfica')
 
 # Generar listado de Regiones ordenados
 tip_puntos = Edu_Sup["TIPO_INSTITUCIÓN"].sort_values().unique()
